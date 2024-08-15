@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Navigation() {
   return (
     <>
-     <header className=" lg:px-16 px-4 bg-gray-900 flex flex-wrap items-center py-4 shadow-md ">
-    <div className=" flex-1 flex justify-between items-center ">
+     <header className="  lg:px-16 px-4 bg-gray-900 flex flex-wrap items-center py-4 shadow-md ">
+    <div className="font-bold text-center flex-1 md:flex md:justify-between items-center ">
         <Link to='/' className="text-5xl text-white uppercase  ">Eventos</Link>
     </div>
 

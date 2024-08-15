@@ -9,7 +9,7 @@ function App()
 {
   return(
     
-    <div className="bg-gray-950 min-w-max">
+    <div className="bg-gray-950 ">
       
      <BrowserRouter>
      <Navigation></Navigation>

@@ -1,13 +1,14 @@
 import Carrousel from "../Components/Carrousel";
 import CardsEvents from "../Components/CardsEvents";
+import EventList from "../Components/EventsList";
 
 function HomePage() {
   return (
     <>
-    <div className="w-max">
+    <div >
    
       <Carrousel></Carrousel>
-      <CardsEvents></CardsEvents>
+      <EventList></EventList>
          
     </div>
     </>
