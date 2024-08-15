@@ -13,7 +13,7 @@ function Navigation() {
 
     <div className="text-center md:flex md:items-center md:w-auto w-full" id="menu">
         <nav>
-            <ul class="md:flex items-center justify-between  text-2xl text-white pt-4 md:pt-0">
+            <ul className="md:flex items-center justify-between  text-2xl text-white pt-4 md:pt-0">
                 <li><Link to='/' className="md:p-4 py-3 px-0 block hover:bg-slate-700 rounded-md " >Inicio</Link></li>
                 <li><Link to='/casita' className="md:p-4 py-3 px-0 block  hover:bg-slate-700 rounded-md" >Evento</Link></li>
                 <li><Link className="md:p-4 py-3 px-0 block  hover:bg-slate-700 rounded-md" >Artistas</Link></li>
