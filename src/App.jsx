@@ -9,12 +9,12 @@ function App()
 {
   return(
     
-    <div className="bg-gray-950 ">
+    <div className="bg-gray-950 w-full h-screen overflow-x-hidden">
       
      <BrowserRouter>
      <Navigation></Navigation>
            <Routes>
-              <Route index path="/" element={<HomePage/>}>
+              <Route  index path="/" element={<HomePage/>}>
               </Route>
               <Route index path="/casita" element={<HomeScreen/>}>
               </Route>

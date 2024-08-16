@@ -6,7 +6,7 @@ import Navigation from './Components/Navigation.jsx'
 import { EventContextProvider } from './Context/EventsContect.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <EventContextProvider>
+     <EventContextProvider >
     <App />
     </EventContextProvider>
   </StrictMode>,
