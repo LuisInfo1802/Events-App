@@ -22,3 +22,25 @@ export const events =[
             }
 ]
 
+export const bands=[
+    {
+        id:0,
+        name:'Ghost',
+        img: 'https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2019/10/ghost1.jpg?fit=720%2C480&ssl=1',
+        decription:'Lorem',
+        idBandType: 'Metal',
+        instagram:'',
+        youtube:'',
+        twitter:''
+    },
+    {
+        id:1,
+        name:'Sleep Token',
+        img: 'https://i.scdn.co/image/ab6761610000e5ebdbc568c9d871256b9a3e34a1',
+        decription:'Lorem',
+        idBandType: 'Metal',
+        instagram:'',
+        youtube:'',
+        twitter:''
+    },
+]
