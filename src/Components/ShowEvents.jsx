@@ -1,8 +1,8 @@
 
 function ShowEvents() {
   return (
-    <div className="text-center p-8 bg-gray-700 text-white">
-      <h2 className="font-bold text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+    <div className="text-center p-8  bg-gray-700 text-white">
+      <h2 className="font-bold text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-10 ">
         Eventos Más Populares 
       </h2>
 

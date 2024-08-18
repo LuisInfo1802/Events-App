@@ -15,7 +15,7 @@ function EventList()
     return(
         <>
      
-         <h2 className=" font-sans font-bold text-white text-center text-3xl gap-8 sm:text-6xl mb-10 border-l-4 md:border-l-0 border-teal-950">
+         <h2 className=" mt-10 font-sans font-bold text-white text-center text-3xl gap-8 sm:text-6xl mb-10 border-l-4 md:border-l-0 border-teal-950">
         Agenda de Conciertos
       </h2>
 

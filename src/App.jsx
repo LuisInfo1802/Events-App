@@ -5,6 +5,7 @@ import HomeScreen from "./Components/HomeScreen";
 import Home from "./Components/Home";
 import Navigation from './Components/Navigation'
 import HomePage from './Pages/HomePage'
+import Footer from './Components/Footer'
 function App()
 {
   return(
@@ -19,6 +20,7 @@ function App()
               <Route index path="/casita" element={<HomeScreen/>}>
               </Route>
            </Routes>
+           <Footer></Footer>
      </BrowserRouter>
     </div>
   )
