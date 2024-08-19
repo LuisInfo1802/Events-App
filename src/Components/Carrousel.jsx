@@ -8,38 +8,37 @@ function Carrousel()
 {
     const slides = [
         {
-          url: 'https://ca-times.brightspotcdn.com/dims4/default/9708845/2147483647/strip/true/crop/4564x3042+383+0/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F72%2Fd7%2F879b8aca4196bc5e8f4bc754acce%2F922844-la-et-ms-swedish-metal-band-ghost-5-brv.jpg',
+          url: 'https://ca-times.brightspotcdn.com/dims4/default/267ead8/2147483647/strip/true/crop/6720x4480+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0b%2F86%2F29e75f7e449daba1c767ae7aa073%2Fphoto-2022-08-07-3-41-54-am.png',
         },
         {
-          url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+          url: 'https://www.revolvermag.com/wp-content/uploads/2023/09/13/lede-re-imperatour2023usa_losangeles02_ryanchang-32-2.jpg',
         },
         {
-          url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
+          url: 'https://spaces.rocksound.tv/uploads/2023/07/sleeptoken2.jpg',
         },
     
         {
-          url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
+          url: 'https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/sites/82/2020/09/10120536/EDCMEX2020_0228_201114-04793_IME_768x440.jpg',
         },
         {
-          url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
+          url: 'https://www.sopitas.com/wp-content/uploads/2020/04/Daft-Punk.jpg?resize=1200,623',
         },
       ];
     
       const [currentIndex, setCurrentIndex] = useState(0);
-      const [artist, setArtis]=useState('Ghost');
+      const [artist, setArtis]=useState('¡Este atento a las nuevas fechas!');
       const [date,setDate]=useState('');
       const [description,setDesciption]=useState('');
+
       const prevSlide = () => {
         const isFirstSlide = currentIndex === 0;
         const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-        setArtis("SleepToken")
         setCurrentIndex(newIndex);
       };
     
       const nextSlide = () => {
         const isLastSlide = currentIndex === slides.length - 1;
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
-        setArtis("Ghost")
         setCurrentIndex(newIndex);
       };
     
@@ -54,11 +53,10 @@ function Carrousel()
             className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative '
           >
             
-            <div className='absolute bottom-0 rounded-2xl opacity-75 left-1/2 transform  -translate-x-1/2 bg-black m-w-[1400px] h-[195px] w-full'>
+            <div className='absolute bottom-0 rounded-2xl opacity-75 left-1/2 transform  -translate-x-1/2 bg-black m-w-[1400px] h-[150px] w-full'>
               
-              <h1 className='text-white text-5xl absolute bottom-36 left-1/2 transform  -translate-x-1/2 font-semibold'>{artist}</h1>
-              <p  className='text-white text-3xl md:text-4xl absolute bottom-20 left-1/2 transform  -translate-x-1/2 font-semibold'>Fecha</p>
-              <p className='text-white text-xl md:text-4xl absolute bottom-3 left-1/2 transform  -translate-x-1/2 text-center font-semibold'>Proximamente en México</p>
+              <h1 className='text-white text-5xl absolute bottom-20 left-1/2 transform  -translate-x-1/2 font-semibold'>{artist}</h1>
+              <p className='text-white text-xl md:text-4xl absolute bottom-3 left-1/2 transform  -translate-x-1/2 text-center font-semibold'>Proximamente más información</p>
               </div>
            
 
