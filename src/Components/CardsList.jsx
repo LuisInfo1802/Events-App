@@ -18,7 +18,7 @@ function CardsList() {
           <div key={banda.id} className="relative  max-w-sm sm:mr-10 mt-24 ">
             <div className="rounded overflow-hidden shadow-md bg-gray-700">
               <CardsArtist key={banda.id} banda={banda}></CardsArtist>
-            </div>{" "}
+            </div>
           </div>
         ))}
       </div>

@@ -5,21 +5,32 @@ export const events =[
         city:'Guadalajara',
         county:'Mexico',
         date:'2024-07-11',
-        img: 'https://www.tribuna.com.mx/u/fotografias/m/2023/5/30/f425x230-332935_346917_5050.jpg',
-        idBand:'Ghost',
+        img: 'https://al-chile.mx/wp-content/uploads/2023/01/edc-mexico-sabado-1024x683.jpeg',
+        idBand:'EDC',
         idEvent:'Conciert',
-        description:'Primera tarea'
+        description:'¡Se acerca la preventa! '
         },{
             id:1,
         direction:'Evento 2',
-        city:'Mazatlán',
+        city:'CDMX',
         county:'Mexico',
         date:'2024-11-24',
-        img: 'https://www.spirit-of-metal.com/les%20goupes/S/Sleep%20Token/pics/fb5e_3.jpg',
-        idBand:'SleepToken',
+        img: 'https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2022-09/theweeknd-newjersey-63e669.jpg',
+        idBand:'The Weeknd',
         idEvent:'Conciert',
-        description:'Prueba 2'
-            }
+        description:'Boletos disponibles '
+            },
+            {
+                id:2,
+            direction:'Evento 2',
+            city:'Monterrey',
+            county:'Mexico',
+            date:'2024-11-24',
+            img: 'https://edm.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkxMjYzODY2NDE0NDQyMDgy/immerse-yourself-neon.jpg',
+            idBand:'Daft Punk',
+            idEvent:'Conciert',
+            description:'¡Aprovecha esta oportunidad!'
+                }
 ]
 
 export const bands=[
