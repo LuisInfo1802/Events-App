@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Navigation from './Components/Navigation'
 import HomePage from './Pages/HomePage'
 import Footer from './Components/Footer'
+import Artist from "./Pages/Artist";
 function App()
 {
   return(
@@ -19,6 +20,7 @@ function App()
               </Route>
               <Route index path="/casita" element={<HomeScreen/>}>
               </Route>
+              <Route index path="/artista" element={<Artist/>}></Route>
            </Routes>
            <Footer></Footer>
      </BrowserRouter>

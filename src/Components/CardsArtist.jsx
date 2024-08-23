@@ -1,6 +1,7 @@
 import { IoLogoYoutube } from "react-icons/io";
 import { FiInstagram } from "react-icons/fi";
 import { BsTwitterX } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 function CardArtist({banda}) {
   return (
@@ -9,7 +10,7 @@ function CardArtist({banda}) {
      
 
         
-       
+    <Link to='/artista' state={banda}  className="cursor-pointer">
 
       {/*Aqui comienza el card */}
     
@@ -35,23 +36,24 @@ function CardArtist({banda}) {
               {banda.idBandType}
             </p>
             <p className="text-center text-gray-300 text-base pt-3 font-normal text-ju">
-                {banda.decription}
+                {banda.description}
+            
             </p>
 
 
             
             <div className="w-full flex justify-center pt-5 pb-5">
-              <a href="#" className="mx-5">
+              <a href="/" className="mx-5">
                 <div aria-label="Youtube">
                   <IoLogoYoutube />
                 </div>
               </a>
-              <a href="#" className="mx-5">
+              <a href="/" className="mx-5">
                 <div aria-label="Twitter">
                   <BsTwitterX />
                 </div>
               </a>
-              <a href="#" className="mx-5">
+              <a href="/" className="mx-5">
                 <div aria-label="Instagram">
                   <FiInstagram />
                 </div>
@@ -63,7 +65,7 @@ function CardArtist({banda}) {
 
 
 
-
+          </Link>
 
 
 
