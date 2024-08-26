@@ -13,9 +13,9 @@ function CardsList() {
         Sobre nuestros artistas..
       </p>
 
-      <div className="flex  flex-col  sm:flex-row sm:justify-center rounded w-full h-screenpx-10 pt-5 text-white">
-        {bands.map((banda) => (
-          <div key={banda.id} className="relative  max-w-sm sm:mr-10 mt-24 ">
+      <div className="flex  flex-col  sm:flex-row sm:justify-center rounded w-full h-screenpx-10 pt-5 text-white ">
+        {bands.slice(0,3).map((banda) => (
+          <div key={banda.id} className="relative  max-w-sm sm:mr-10 mt-24 hover:scale-110 transition duration-200 ">
             <div className="rounded overflow-hidden shadow-md bg-gray-700">
               <CardsArtist key={banda.id} banda={banda}></CardsArtist>
             </div>

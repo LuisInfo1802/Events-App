@@ -5,7 +5,7 @@ function Footer()
 {
     return(
         < >
-        <div className="  bg-gray-700 mt-20">
+        <div className="  bg-gray-700 h-96 mt-20    md:h-auto">
         <div className="h-32 max-w-screen-lg px-4 sm:px-2 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
             <div className="p-5">
             <Link to='/' className="text-5xl text-white uppercase font-bold ">FestiMex</Link>
@@ -30,7 +30,7 @@ function Footer()
         <div className="flex pb-5 px-3 m-auto pt-5   text-white text-sm flex-col
           max-w-screen-lg items-center mt-0 ">
           
-            <div className="my-5 text-2xl text-center"> Todos los derechos reservados. © Copyright 2024.  <br></br> Luis Angel Sanchez Ocegueda <br /> </div>
+            <div className="my-5 md:text-2xl text-center"> Todos los derechos reservados. © Copyright 2024.  <br></br> Luis Angel Sanchez Ocegueda <br /> </div>
 
         </div>
     </div>

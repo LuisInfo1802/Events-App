@@ -68,5 +68,27 @@ export const bands=[
         twitter:'',
         spotify:''
 
+    },{
+        id:3,
+        name:'Daft Punk',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Daft_Punk_in_2013.jpg',
+        description:'Daft Punk fue un dúo francés de música electrónica y rock-electrónico formado en 1993 en París por Thomas Bangalter y Guy-Manuel de Homem-Christo. Alcanzaron popularidad a fines de la década de 1990 como parte del movimiento house francés, combinando elementos de la música house con funk, disco, rock y pop.​',
+        idBandType: 'R&B/Soul, Dance/Electrónica',
+        instagram:'',
+        youtube:'',
+        twitter:'',
+        spotify:''
+
+    },{
+        id:4,
+        name:'Paramore',
+        img: 'https://estacionk2.com/wp-content/uploads/2024/01/NME-PARAMORE-HERO-2023@2560x1625.jpg',
+        description:'Paramore es una banda estadounidense de pop punk integrada por Hayley Williams, Taylor York y Zac Farro. Fue formada en Franklin, Tennessee, en 2004, por Williams y Jeremy Davis junto con Josh Farro, Zac Farro ​ y Jason Bynum.​​',
+        idBandType: 'Alternativa/independiente',
+        instagram:'',
+        youtube:'',
+        twitter:'',
+        spotify:''
+
     },
 ]

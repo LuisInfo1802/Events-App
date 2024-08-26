@@ -1,22 +1,17 @@
-import React, { useContext,useState } from "react";
+import React, { useContext,useEffect,useState } from "react";
 import { EventContext } from "../Context/EventsContect";
-import { useLocation } from "react-router-dom";
+import { Routes, Route, BrowserRouter, useLocation } from "react-router-dom";
 
 function Artist() {
+
   const location = useLocation();
-  const [nombre,setNombre] = useState('');
-  
-
-  //setNombre(location.state.name);
-
   const name = location.state.name;
   const img = location.state.img;
   const description=location.state.description
-
-
+ 
   return(
       <>
-       <div className=" md:mx-auto md:h-max mt-20 md:w-max px-10 dark:bg-gray-700">
+       <div className="focus md:mx-auto md:h-max mt-20 md:w-max px-10 dark:bg-gray-700">
     <div className="pt-10 ">
         <div className="container mx-auto">
             <div className="flex flex-wrap items-center pb-12">

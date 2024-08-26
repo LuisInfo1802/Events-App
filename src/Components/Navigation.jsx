@@ -16,7 +16,7 @@ function Navigation() {
             <ul className="md:flex items-center justify-between  text-2xl text-white pt-4 md:pt-0">
                 <li><Link to='/' className="md:p-4 py-3 px-0 block hover:bg-slate-700 rounded-md " >Inicio</Link></li>
                 <li><Link to='/casita' className="md:p-4 py-3 px-0 block  hover:bg-slate-700 rounded-md" >Evento</Link></li>
-                <li><Link className="md:p-4 py-3 px-0 block  hover:bg-slate-700 rounded-md" >Artistas</Link></li>
+                <li><Link to='/artistas' className="md:p-4 py-3 px-0 block  hover:bg-slate-700 rounded-md" >Artistas</Link></li>
                 <li><Link className="md:p-4 py-3 px-0 block md:mb-0 mb-2  hover:bg-slate-700 rounded-md" >Contacto </Link></li>
             </ul>
         </nav>

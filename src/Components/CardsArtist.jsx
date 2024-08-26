@@ -10,11 +10,11 @@ function CardArtist({banda}) {
      
 
         
-    <Link to='/artista' state={banda}  className="cursor-pointer">
+    <Link to='/artista' state={banda}  className="cursor-pointer ">
 
       {/*Aqui comienza el card */}
     
-          <div className="absolute -mt-20 w-full flex justify-center">
+          <div className="absolute -mt-20 w-full flex justify-center ">
             <div className="h-32 w-32">
               <img
                 src={banda.img}
@@ -27,7 +27,7 @@ function CardArtist({banda}) {
 
 
 
-          <div className="px-6 mt-16">
+          <div className="px-6 mt-16 ">
 
 
 
